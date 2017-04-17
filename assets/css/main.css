@@ -3,26 +3,25 @@ html{
 }
 
 .principal{
+  display: block;
   font-weight: 550;
   font-size: 21px;
+  width: 200px;
 }
 
 #block1{
   background-color: rgb(255, 252, 0);
   padding:5px 5px 40px 5px;
-  margin: 0;
 }
 
 #block2{
   background-color: rgb(255, 0, 107);
   padding:5px 5px 40px 5px;
-  border: 1px solid black;
-  margin: 0px;
+  /*border: 1px solid black;*/
 }
 
 #block3{
   background-color: rgb(255, 252, 0);
   padding:5px 5px 40px 5px;
-  margin: 0;
   text-transform: uppercase;
 }
